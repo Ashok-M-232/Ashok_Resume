@@ -2,104 +2,347 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ashok M | Developer Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>M. Ashok - Developer Portfolio</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="hero alt-hero">
-    <div class="hero-content alt-hero-content">
-      <h1 class="highlight-name">Hi, I'm <span style="color: rgb(0, 77, 159);">Ashok M</span></h1>
-      <p class="tagline">Crafting mobile & web apps with passion for performance & UI.</p>
-      <div class="hero-buttons">
-        <a href="mailto:ashok0432m@gmail.com" class="btn">📧 Get In Touch</a>
-        <!-- <a href="https://www.ahiraalearning.com" class="btn btn-alt" target="_blank">🌐 Visit My Site</a> -->
-        <a href="#projects" class="btn">📁 See Projects</a>
-      </div>
-    </div>
-  </header>
+
+ <!-- Navigation Bar -->
+<header>
+  <input type="checkbox" id="nav-toggle" class="nav-toggle">
+  <nav class="navbar">
+    <div class="logo">M. ASHOK</div>
+    <ul class="nav-links">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#summary">Summary</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+      <li><a href="#languages">Languages</a></li>
+      <li><a href="#interests">Interests</a></li>
+    </ul>
+    <label for="nav-toggle" class="nav-toggle-label">
+      <span></span>
+    </label>
+  </nav>
+</header>
+
 
   <main class="container">
-    <section class="card">
-      <h2>🎯 Career Objective</h2>
-      <p>Self-motivated and technically strong Software Developer with 2 years of freelance and product-based experience. Specialized in React Native, PHP, MySQL, and Spring Boot. Seeking a role in TCS, Wipro, or a tech-driven startup to build innovative systems and scale enterprise solutions.</p>
-    </section>
 
-    <section class="card">
-      <h2>🛠️ Technical Skills</h2>
-      <ul class="skills">
-        <li><strong>Languages:</strong> Java, JavaScript, PHP, SQL</li>
-        <li><strong>Frontend:</strong> React Native, ReactJS, HTML5, CSS3, Tailwind</li>
-        <li><strong>Backend:</strong> PHP, MySQL, Spring Boot</li>
-        <li><strong>Database:</strong> MySQL, Firebase</li>
-        <li><strong>Authentication:</strong> Firebase Auth, Gmail SMTP OTP</li>
-        <li><strong>Tools:</strong> Git, GitHub, Postman, Hostinger, VS Code</li>
-        <li><strong>Others:</strong> Zustand, REST APIs, Axios, CORS</li>
-      </ul>
-    </section>
-
-    <section class="card" id="projects">
-      <h2>💼 Projects</h2>
-
-      <div class="project">
-        <h3>RootServices Platform <span class="status">(Current)</span></h3>
-        <p>A complete multi-service app for lead capture, internal workflows, and user management.</p>
-        <ul>
-          <li>React Native + Zustand frontend, PHP & MySQL backend</li>
-          <li>Built forms, dashboard UI, and service workflows</li>
-        </ul>
-      </div>
-
-      <div class="project">
-        <h3>Ahiraa Properties Finders</h3>
-        <p>Real estate app for city-wise venture discovery with detailed property pages.</p>
-        <ul>
-          <li>Dynamic property listings with 30+ details per venture</li>
-          <li>OTP login, liked ventures, session-based user profiles</li>
-        </ul>
-      </div>
-
-      <div class="project">
-        <h3>DLR Builders – Sri Vari Gardens</h3>
-        <p>Client-based venture listing app with logos, banners, BHK info, and contacts.</p>
-        <ul>
-          <li>Used React Native frontend and PHP backend</li>
-          <li>Hosted API and dashboard with cPanel (Hostinger)</li>
-        </ul>
+    <!-- Hero Section -->
+    <section id="hero">
+      <div class="hero-content">
+        <h1>M. ASHOK</h1>
+        <p class="tagline">Full-Stack Developer | React Native Expert | PHP & MySQL Specialist</p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn">View Projects</a>
+          <a href="mailto:ashok0432m@gmail.com" class="btn secondary">Contact Me</a>
+          
+        </div>
+        <div class="contact-info">
+          <p>📞 +91-8106630124</p>
+          <p>📧 ashok0432m@gmail.com</p>
+          <p>📍 Andhra Pradesh, India</p>
+        </div>
       </div>
     </section>
 
-    <section class="card">
-      <h2>🎓 Education</h2>
-      <ul class="timeline">
-        <li><strong>B.Tech / EEE</strong> – Anantha Lakshmi Institute, JNTUA (2023) – 70%</li>
-        <li><strong>Diploma / EEE</strong> – SVR Engineering College, SBTET (2020) – 74%</li>
-        <li><strong>10th</strong> – Sri Chaitanya School, SSC (2017) – 78%</li>
-      </ul>
+    <!-- Summary Section -->
+    <section id="summary">
+      <h2>Professional Summary</h2>
+      <p>
+        I am a dynamic Full-Stack Developer and digital product creator with deep expertise in building real-world, scalable mobile applications. With strong command over <strong>ReactJS ,React Native (Expo)</strong> and <strong>PHP + MySQL</strong>, I specialize in end-to-end app development — from pixel-perfect UI to secure, high-performance backend systems.
+      </p>
+      <p>
+        My work spans across real estate, education, e-commerce, and consultancy platforms — all developed from scratch, delivered with clean code, database design, and production deployment. I’ve built features like OTP-based login, dynamic listing fetch, admin-side controls, and user-specific functionalities like favorites/likes.
+      </p>
+      <p>
+        My strength lies in building systems that not only work — but also solve real business problems. I take ownership from idea to execution and focus on delivering stable, modern, and responsive solutions.
+      </p>
+      <p>
+        I am now seeking roles where I can contribute to full product cycles, collaborate with growth-driven teams, and continuously enhance both product and user value — as a developer, a builder, and a future tech leader.
+      </p>
     </section>
 
-    <section class="card">
-      <h2>📜 Certifications</h2>
-      <ul>
-        <li>Java Full Stack Development – Udemy</li>
-        <li>Spring Boot + MySQL CRUD APIs – Self Project</li>
-        <li>Firebase Auth + OTP Login – Live App Integration</li>
-      </ul>
+    <!-- Skills Section -->
+    <section id="skills">
+      <h2>Technical Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>Frontend</h3>
+          <ul>
+            <li>React Native (Expo)</li>
+            <li>React.js</li>
+            <li>HTML5, CSS3</li>
+            <li>Tailwind CSS</li>
+            <li>JavaScript (ES6+)</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h3>Backend</h3>
+          <ul>
+            <li>PHP (Core + API)</li>
+            <li>MySQL / Hostinger DB</li>
+            <li>RESTful APIs</li>
+            <li>Firebase Auth / OTP</li>
+            <li>JWT (Basic)</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h3>Tools & Platforms</h3>
+          <ul>
+            <li>Git & GitHub</li>
+            <li>VS Code </li>
+            <li>Postman / Testing APIs</li>
+            <li>Hostinger </li>
+          </ul>
+        </div>
+      </div>
     </section>
 
-    <section class="card">
-      <h2>🧾 Additional Information</h2>
-      <ul>
-        <li>Languages Known: English, Telugu, Hindi</li>
-        <li>Availability: Immediate</li>
-        <li>Preferred Role: Developer – L1 / Mobile / Backend</li>
-        <li>Employment Type: Fresher (2 Years Freelance Experience)</li>
-      </ul>
-    </section>
+    <section id="projects">
+  <h2>Projects</h2>
+
+  <!-- Project 1 -->
+  
+
+  <!-- Project 2 -->
+  <div class="project-block live">
+    <h3>Root Services</h3>
+    <p class="description">
+      A digital services finder platform designed to connect users with services like construction, interior, and real estate assistance. Fully frontend-based and linked to sub-services.
+    </p>
+    <ul class="features">
+      <li> Homepage with service categories</li>
+      <li> Real estate tab navigation</li>
+      <li> Contact and branding integration</li>
+    </ul>
+    <div class="tags">
+      <span>ongoing</span>
+       <span>React Native</span>
+      <span>PHP + MySQL</span>
+      <span>Multi-Services</span>
+    </div>
+    <div class="project-links">
+    </div>
+  </div>
+
+  <div class="project-block live">
+    <h3>Ahiraa Properties Finders</h3>
+    <p class="description">
+      A feature-rich real estate mobile app developed in React Native with Expo. It allows users to explore city-wise property listings, view detailed venture info, like/save ventures, and login via OTP. Backend is built using PHP and MySQL, hosted on Hostinger.
+    </p>
+    <ul class="features">
+      <li> City-wise dynamic property fetch</li>
+      <li> Venture details with image/video gallery</li>
+      <li> OTP login system with backend validation</li>
+      <li> Like system per user email (stored in DB)</li>
+    </ul>
+    <div class="tags">
+      <span>Live</span>
+      <span>React Native</span>
+      <span>PHP + MySQL</span>
+      <span>Firebase (OTP)</span>
+    </div>
+    <div class="project-links">
+      <a href="https://play.google.com/store/apps/details?id=com.ahiraa.propertiesfinder" target="_blank">View App</a>
+    </div>
+  </div>
+
+  <!-- Project 3 -->
+  <div class="project-block live">
+    <h3>DLR Builders & Developers</h3>
+    <p class="description">
+      A custom-built website for a real estate construction company with venture listings, media sections, and client inquiry options. Hosted using PHP backend + cPanel.
+    </p>
+    <ul class="features">
+      <li> Company details and project listings</li>
+      <li> Contact + media integration</li>
+      <li> Optimized for mobile & search</li>
+    </ul>
+    <div class="tags">
+      <span>Live</span>
+      <span>Real Estate</span>
+      <span>PHP</span>
+    </div>
+    <div class="project-links">
+    </div>
+  </div>
+
+  <!-- Project 4 -->
+  <div class="project-block coming">
+    <h3>ANR Photography</h3>
+    <p class="description">
+      Portfolio website for a photographer, designed to showcase high-quality photo shoots, gallery layouts, and client booking. UI layout completed, waiting on hosting.
+    </p>
+    <ul class="features">
+      <li> Image-based portfolio grid</li>
+      <li> Client inquiry + WhatsApp integration</li>
+    </ul>
+    <div class="tags">
+      <span>Coming Soon</span>
+      <span>Portfolio</span>
+    </div>
+  </div>
+
+  <!-- Project 5 -->
+  <div class="project-block coming">
+    <h3>Ahiraa Learning Pvt Ltd</h3>
+    <p class="description">
+      An educational video publishing platform with a backend for content upload and real-time updates. Designed for course creators and kids’ content. and its not in Live due Completion of Server Subscription
+    </p>
+    <ul class="features">
+      <li> YouTube video integration</li>
+      <li> Admin panel for content push</li>
+      <li> AI-generated video planning</li>
+    </ul>
+    <div class="tags">
+      <span>Coming Soon</span>
+      <span>EdTech</span>
+    </div>
+  </div>
+
+</section>
+
+<section id="education">
+  <h2>Education</h2>
+
+  <div class="education-block">
+    <h3>Bachelor of Technology (B.Tech) - Electrical & Electronics Engineering (EEE)</h3>
+    <p class="institution">Anantha Lakshmi Institute of Technology and Sciences, Anantapur</p>
+    <p class="duration">JNTUA | 2020 – 2023</p>
+    <p class="description">
+      Secured 70%. Completed various electrical and software integration projects. Built strong foundational and practical experience in circuit design, system logic, and tech-based applications.
+    </p>
+  </div>
+
+  <div class="education-block">
+    <h3>Diploma in Electrical & Electronics Engineering (EEE)</h3>
+    <p class="institution">SVR Engineering College, Nandyal</p>
+    <p class="duration">SBTET | 2017 – 2020</p>
+    <p class="description">
+      Secured 74%. Studied core electronics, transmission systems, and electrical theory. This laid the groundwork for both hardware and software system understanding.
+    </p>
+  </div>
+
+  <div class="education-block">
+    <h3>Secondary School Certificate (SSC)</h3>
+    <p class="institution">Sri Chaitanya School, Nandyal</p>
+    <p class="duration">Board of SSC | 2016 – 2017</p>
+    <p class="description">
+      Secured 78%. Developed strong academic performance with special interest in science, math, and computer fundamentals.
+    </p>
+  </div>
+
+</section>
+
+<!-- === Certifications Section Start === -->
+<section id="certifications">
+  <h2>Certifications</h2>
+
+  <div class="certificate-block">
+    <h3>Full Stack Java Developer</h3>
+    <p class="issuer">Issued by: iHub - Innovative Placement Solutions</p>
+    <p class="issued-date">Date of Issue: 30/10/2023</p>
+    <p class="cert-id">Certificate ID: 23IH2298</p>
+    <p class="description">
+      Successfully completed an advanced Full Stack Java Developer program through iHub (an IIT Hyderabad initiative). This course covered backend (Java, Spring Boot, MySQL) and frontend (HTML, CSS, JS, React) technologies, with live project implementation and deployment skills.
+    </p>
+    <div class="cert-actions">
+      <button onclick="openPDFModal()">📄 View Certificate</button>
+    </div>
+  </div>
+
+  <!-- PDF Modal -->
+  <div id="pdfModal" class="modern-modal">
+    <div class="modern-modal-content">
+      <div class="modal-header">
+        <h3>Full Stack Java Developer Certificate</h3>
+        <span class="modal-close" onclick="closePDFModal()">&times;</span>
+      </div>
+      <iframe src="certificates/ihub-fullstack-java.pdf"></iframe>
+    </div>
+  </div>
+</section>
+
+<!-- === Languages Section === -->
+<section id="languages">
+  <h2>Languages</h2>
+
+  <div class="language-list">
+    <div class="language-card">
+      <h3>Telugu</h3>
+      <p>Native Speaker</p>
+      <div class="bar"><div class="fill" style="width: 100%"></div></div>
+    </div>
+
+    <div class="language-card">
+      <h3>English</h3>
+      <p>Fluent (Professional)</p>
+      <div class="bar"><div class="fill" style="width: 95%"></div></div>
+    </div>
+
+    <div class="language-card">
+      <h3>Hindi</h3>
+      <p>Intermediate</p>
+      <div class="bar"><div class="fill" style="width: 60%"></div></div>
+    </div>
+  </div>
+</section>
+
+
+<!-- === Interests & Future Learning Section === -->
+<section id="interests">
+  <h2>Interests & Future Learning</h2>
+
+  <div class="interest-grid">
+    <div class="interest-card">
+      <h3>📚 Started Learning AI & ML</h3>
+      <p>I'm currently exploring Artificial Intelligence and Machine Learning to build smart, real-world applications.</p>
+    </div>
+
+
+    <div class="interest-card">
+      <h3>🎬 Watching Movies</h3>
+      <p>Storytelling in cinema inspires creativity and reflects in my UI/UX designs and content creation.</p>
+    </div>
+
+    <div class="interest-card">
+      <h3>🎮 Gaming & Strategy</h3>
+      <p>Gaming sharpens focus, logic, and strategic thinking — a fun way to build problem-solving skills.</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- === Footer Section === -->
+<footer id="footer">
+  <div class="footer-container">
+    <div class="footer-name">
+      <h3>M. Ashok</h3>
+      <p>Full Stack Developer | React Native | Spring Boot | PHP | MySQL</p>
+    </div>
+
+    <div class="footer-links">
+      <a href="mailto:ashok0432m@gmail.com">📧 ashok0432m@gmail.com</a>
+      <a href="tel:+918106630124">📞 +91 8106630124</a>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2025 M. Ashok. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+
   </main>
 
-  <footer>
-    <p>&copy; 2025 Ashok M. All rights reserved.</p>
-  </footer>
+  <!-- ScrollReveal CDN + Custom JS -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="main.js"></script>
+
 </body>
 </html>
