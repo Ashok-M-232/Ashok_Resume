@@ -2,33 +2,104 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Resume Navigation - Ashok</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ashok M | Developer Portfolio</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
-  <nav class="navbar">
-    <ul>
-      <li><a href="#summary">Summary</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#education">Education</a></li>
-      <li><a href="#certifications">Certifications</a></li>
-      <li><a href="#languages">Languages</a></li>
-      <li><a href="#interests">Interests</a></li>
-    </ul>
-  </nav>
+  <header class="hero alt-hero">
+    <div class="hero-content alt-hero-content">
+      <h1 class="highlight-name">Hi, I'm <span style="color: rgb(0, 77, 159);">Ashok M</span></h1>
+      <p class="tagline">Crafting mobile & web apps with passion for performance & UI.</p>
+      <div class="hero-buttons">
+        <a href="mailto:ashok0432m@gmail.com" class="btn">📧 Get In Touch</a>
+        <!-- <a href="https://www.ahiraalearning.com" class="btn btn-alt" target="_blank">🌐 Visit My Site</a> -->
+        <a href="#projects" class="btn">📁 See Projects</a>
+      </div>
+    </div>
+  </header>
 
   <main class="container">
-    <section id="summary"><h2>Summary</h2></section>
-    <section id="skills"><h2>Skills</h2></section>
-    <section id="projects"><h2>Projects</h2></section>
-    <section id="education"><h2>Education</h2></section>
-    <section id="certifications"><h2>Certifications</h2></section>
-    <section id="languages"><h2>Languages</h2></section>
-    <section id="interests"><h2>Interests</h2></section>
+    <section class="card">
+      <h2>🎯 Career Objective</h2>
+      <p>Self-motivated and technically strong Software Developer with 2 years of freelance and product-based experience. Specialized in React Native, PHP, MySQL, and Spring Boot. Seeking a role in TCS, Wipro, or a tech-driven startup to build innovative systems and scale enterprise solutions.</p>
+    </section>
+
+    <section class="card">
+      <h2>🛠️ Technical Skills</h2>
+      <ul class="skills">
+        <li><strong>Languages:</strong> Java, JavaScript, PHP, SQL</li>
+        <li><strong>Frontend:</strong> React Native, ReactJS, HTML5, CSS3, Tailwind</li>
+        <li><strong>Backend:</strong> PHP, MySQL, Spring Boot</li>
+        <li><strong>Database:</strong> MySQL, Firebase</li>
+        <li><strong>Authentication:</strong> Firebase Auth, Gmail SMTP OTP</li>
+        <li><strong>Tools:</strong> Git, GitHub, Postman, Hostinger, VS Code</li>
+        <li><strong>Others:</strong> Zustand, REST APIs, Axios, CORS</li>
+      </ul>
+    </section>
+
+    <section class="card" id="projects">
+      <h2>💼 Projects</h2>
+
+      <div class="project">
+        <h3>RootServices Platform <span class="status">(Current)</span></h3>
+        <p>A complete multi-service app for lead capture, internal workflows, and user management.</p>
+        <ul>
+          <li>React Native + Zustand frontend, PHP & MySQL backend</li>
+          <li>Built forms, dashboard UI, and service workflows</li>
+        </ul>
+      </div>
+
+      <div class="project">
+        <h3>Ahiraa Properties Finders</h3>
+        <p>Real estate app for city-wise venture discovery with detailed property pages.</p>
+        <ul>
+          <li>Dynamic property listings with 30+ details per venture</li>
+          <li>OTP login, liked ventures, session-based user profiles</li>
+        </ul>
+      </div>
+
+      <div class="project">
+        <h3>DLR Builders – Sri Vari Gardens</h3>
+        <p>Client-based venture listing app with logos, banners, BHK info, and contacts.</p>
+        <ul>
+          <li>Used React Native frontend and PHP backend</li>
+          <li>Hosted API and dashboard with cPanel (Hostinger)</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>🎓 Education</h2>
+      <ul class="timeline">
+        <li><strong>B.Tech / EEE</strong> – Anantha Lakshmi Institute, JNTUA (2023) – 70%</li>
+        <li><strong>Diploma / EEE</strong> – SVR Engineering College, SBTET (2020) – 74%</li>
+        <li><strong>10th</strong> – Sri Chaitanya School, SSC (2017) – 78%</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>📜 Certifications</h2>
+      <ul>
+        <li>Java Full Stack Development – Udemy</li>
+        <li>Spring Boot + MySQL CRUD APIs – Self Project</li>
+        <li>Firebase Auth + OTP Login – Live App Integration</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>🧾 Additional Information</h2>
+      <ul>
+        <li>Languages Known: English, Telugu, Hindi</li>
+        <li>Availability: Immediate</li>
+        <li>Preferred Role: Developer – L1 / Mobile / Backend</li>
+        <li>Employment Type: Fresher (2 Years Freelance Experience)</li>
+      </ul>
+    </section>
   </main>
 
+  <footer>
+    <p>&copy; 2025 Ashok M. All rights reserved.</p>
+  </footer>
 </body>
 </html>
