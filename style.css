@@ -12,6 +12,20 @@ body {
   background: #f4f6f8;
   color: #2d3436;
 }
+.project-block .project-links a {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+
+.project-block .project-links a:hover {
+  background-color: #0056b3;
+}
 
 /* Navbar */
 /* === Responsive Official Navbar === */
