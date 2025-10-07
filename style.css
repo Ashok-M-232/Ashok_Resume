@@ -142,18 +142,15 @@ header {
   }
 }
 
-/* Container */
-.container {
-  padding-top: 100px;
-}
+
 
 /* Hero Section */
 #hero {
-  background: linear-gradient(to bottom right, #2a5298, #1e3c72);
+  background: linear-gradient(90deg, #1e3c72, #2a5298);
   color: #ffffff;
   padding: 120px 20px 80px;
   text-align: center;
-  border-radius: 0 0 30px 30px;
+  border-radius: 2%;
   box-shadow: 0 8px 20px rgba(0,0,0,0.2);
 }
 .hero-content h1 {
@@ -226,6 +223,120 @@ header {
   line-height: 1.8;
   text-align: justify;
 }
+
+
+/* === Professional Experience Section === */
+#experience {
+  background: linear-gradient(135deg, #f8fbff, #eef4ff);
+  padding: 70px 30px;
+  text-align: center;
+}
+
+#experience h2 {
+  font-size: 34px;
+  color: #1e3c72;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.timeline {
+  position: relative;
+  max-width: 950px;
+  margin: auto;
+  padding: 20px 0;
+}
+
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 4px;
+  background: #2a5298;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -2px;
+  border-radius: 4px;
+}
+
+.timeline-item {
+  padding: 20px 40px;
+  position: relative;
+  width: 50%;
+}
+
+.timeline-item:nth-child(odd) {
+  left: 0;
+}
+
+.timeline-item:nth-child(even) {
+  left: 50%;
+}
+
+.timeline-icon {
+  width: 40px;
+  height: 40px;
+  background: #2a5298;
+  color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.timeline-content {
+  background: #fff;
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+  position: relative;
+  transition: 0.3s ease;
+}
+
+.timeline-content:hover {
+  transform: translateY(-6px);
+}
+
+.timeline-item h3 {
+  font-size: 20px;
+  color: #2a5298;
+  margin-bottom: 5px;
+}
+
+.timeline-item .company {
+  font-size: 15px;
+  font-weight: 600;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.timeline-item ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.timeline-item ul li {
+  font-size: 15px;
+  color: #444;
+  margin-bottom: 10px;
+  position: relative;
+  padding-left: 20px;
+}
+
+.timeline-item ul li::before {
+  content: "✔";
+  color: #1abc9c;
+  position: absolute;
+  left: 0;
+  font-size: 14px;
+}
+
 
 /* Skills */
 #skills {
@@ -476,6 +587,53 @@ header {
   background: #1e3c72;
 }
 
+/* Personal Skills Section */
+#personal-skills {
+  padding: 60px 20px;
+  background: #f5f8fc;
+  margin-top: 60px;
+  border-top: 2px solid #e6e6e6;
+}
+
+#personal-skills .container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+#personal-skills h2 {
+  font-size: 26px;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 25px;
+  border-left: 5px solid #4a90e2;
+  padding-left: 12px;
+}
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.skills-list li {
+  font-size: 17px;
+  color: #444;
+  margin-bottom: 14px;
+  padding-left: 30px;
+  position: relative;
+  line-height: 1.7;
+}
+
+.skills-list li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #4a90e2;
+  font-size: 18px;
+  font-weight: bold;
+}
+
 /* === Modern PDF Modal (Fully Responsive) === */
 .modern-modal {
   display: none;
@@ -687,7 +845,7 @@ header {
 }
 
 .footer-container {
-  max-width: 1000px;
+  width: 100%;
   margin: auto;
 }
 
